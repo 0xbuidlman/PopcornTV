@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/PopcornTV.iml" filepath="$PROJECT_DIR$/PopcornTV.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/libs/googleplayservices/googleplayservices.iml" filepath="$PROJECT_DIR$/app/libs/googleplayservices/googleplayservices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/libs/LibTorrent/libtorrent.iml" filepath="$PROJECT_DIR$/app/libs/LibTorrent/libtorrent.iml" />
     </modules>
   </component>
 </project>

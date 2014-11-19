@@ -87,6 +87,8 @@
     <orderEntry type="library" exported="" name="appcompat-v7-21.0.2" level="project" />
     <orderEntry type="library" exported="" name="picasso-2.3.2" level="project" />
     <orderEntry type="library" exported="" name="leanback-v17-21.0.2" level="project" />
+    <orderEntry type="module" module-name="googleplayservices" exported="" />
+    <orderEntry type="module" module-name="libtorrent" exported="" />
   </component>
 </module>
 
