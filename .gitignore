@@ -1,5 +1,3 @@
-reated by https://www.gitignore.io
-
 ### Android ###
 # Built application files
 *.apk
@@ -27,6 +25,7 @@ proguard/
 
 # Log Files
 *.log
+<<<<<<< HEAD
 
 
 ### Java ###
@@ -67,3 +66,5 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+=======
+>>>>>>> 9c4559a96ab35015d6d833ebd03ee4a383d53664
