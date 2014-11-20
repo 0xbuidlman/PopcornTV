@@ -1,5 +1,6 @@
 PopcornTV
 =========
+![image](https://raw.githubusercontent.com/pepibumur/PopcornTV/master/assets/popcorntime_icon.png)
 
 PopcornTV is an Android TV application for torrent streaming (based on Popcorn Time)
 
