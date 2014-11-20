@@ -29,8 +29,16 @@ export ANDROID_ABI=mips # For a MIPS device (i.e. Ainol Novo tablets)
 git clone git://git.videolan.org/vlc-ports/android.git
 
 ## Compile
-sh compile.sh
-sh compile.sh release # For non debug package
+sh compile.sh / sh compile.sh release # For non debug package
+# Note: The previous step takes a lot of time
+make .sdk
+
+## Generate the .jar with the .so files
+cp vlc-sdk/libs vlc-sdk/lib
+zip -r libvlc.jar vlc-sdk/lib
+
+## Copy the .jar file into the project /libs folder
+## Copy the vlc-sdk/src into the project src folder
 ```
 
 
@@ -42,5 +50,5 @@ sh compile.sh release # For non debug package
 
 
 ### Thanks
-Thanks to the [**Popcorn Time**](http://popcorn-time.se/) project which has inspired the development of this app for Android TV
-
+- Thanks to the [**Popcorn Time**](http://popcorn-time.se/) project which has inspired the development of this app for Android TV
+- Thanks to Roberto Pacheco for the [**Pocorn Time Icon**](https://dribbble.com/shots/1526730-Popcorn-Time-Desktop-icon)
