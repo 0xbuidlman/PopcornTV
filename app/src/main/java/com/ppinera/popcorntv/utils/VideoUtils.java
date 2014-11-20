@@ -1,0 +1,130 @@
+package com.ppinera.popcorntv.utils;
+
+import java.util.HashMap;
+
+public class VideoUtils {
+
+	private static HashMap<String, String> extensions = new HashMap<String, String>();
+
+	static {
+		extensions.put("3g2", "");
+		extensions.put("3gp", "");
+		extensions.put("3gp2", "");
+		extensions.put("3gpp", "");
+		extensions.put("amv", "");
+		extensions.put("asf", "");
+		extensions.put("avi", "");
+		extensions.put("divx", "");
+		extensions.put("drc", "");
+		extensions.put("dv", "");
+		extensions.put("f4v", "");
+		extensions.put("flv", "");
+		extensions.put("gvi", "");
+		extensions.put("gxf", "");
+		extensions.put("ismv", "");
+		extensions.put("m1v", "");
+		extensions.put("m2v", "");
+		extensions.put("m2t", "");
+		extensions.put("m2ts", "");
+		extensions.put("m3u8", "");
+		extensions.put("mkv", "");
+		extensions.put("mov", "");
+		extensions.put("mp2", "");
+		extensions.put("mp2v", "");
+		extensions.put("mp4", "");
+		extensions.put("mp4v", "");
+		extensions.put("mpe", "");
+		extensions.put("mpeg", "");
+		extensions.put("mpeg1", "");
+		extensions.put("mpeg2", "");
+		extensions.put("mpeg4", "");
+		extensions.put("mpg", "");
+		extensions.put("mpv2", "");
+		extensions.put("mts", "");
+		extensions.put("mtv", "");
+		extensions.put("mxf", "");
+		extensions.put("mxg", "");
+		extensions.put("nsv", "");
+		extensions.put("nut", "");
+		extensions.put("nuv", "");
+		extensions.put("ogm", "");
+		extensions.put("ogv", "");
+		extensions.put("ogx", "");
+		extensions.put("ps", "");
+		extensions.put("rec", "");
+		extensions.put("rm", "");
+		extensions.put("rmvb", "");
+		extensions.put("tod", "");
+		extensions.put("ts", "");
+		extensions.put("tts", "");
+		extensions.put("vob", "");
+		extensions.put("vro", "");
+		extensions.put("webm", "");
+		extensions.put("wm", "");
+		extensions.put("wmv", "");
+		extensions.put("wtv", "");
+		extensions.put("xesc", "");
+
+		extensions.put("3G2", "");
+		extensions.put("3GP", "");
+		extensions.put("3GP2", "");
+		extensions.put("3GPP", "");
+		extensions.put("AMV", "");
+		extensions.put("ASF", "");
+		extensions.put("AVI", "");
+		extensions.put("DIVX", "");
+		extensions.put("DRC", "");
+		extensions.put("DV", "");
+		extensions.put("F4V", "");
+		extensions.put("FLV", "");
+		extensions.put("GVI", "");
+		extensions.put("GXF", "");
+		extensions.put("ISMV", "");
+		extensions.put("M1V", "");
+		extensions.put("M2V", "");
+		extensions.put("M2T", "");
+		extensions.put("M2TS", "");
+		extensions.put("M3U8", "");
+		extensions.put("MKV", "");
+		extensions.put("MOV", "");
+		extensions.put("MP2", "");
+		extensions.put("MP2V", "");
+		extensions.put("MP4", "");
+		extensions.put("MP4V", "");
+		extensions.put("MPE", "");
+		extensions.put("MPEG", "");
+		extensions.put("MPEG1", "");
+		extensions.put("MPEG2", "");
+		extensions.put("MPEG4", "");
+		extensions.put("MPG", "");
+		extensions.put("MPV2", "");
+		extensions.put("MTS", "");
+		extensions.put("MTV", "");
+		extensions.put("MXF", "");
+		extensions.put("MXG", "");
+		extensions.put("NSV", "");
+		extensions.put("NUT", "");
+		extensions.put("NUV", "");
+		extensions.put("OGM", "");
+		extensions.put("OGV", "");
+		extensions.put("OGX", "");
+		extensions.put("PS", "");
+		extensions.put("REC", "");
+		extensions.put("RM", "");
+		extensions.put("RMVB", "");
+		extensions.put("TOD", "");
+		extensions.put("TS", "");
+		extensions.put("TTS", "");
+		extensions.put("VOB", "");
+		extensions.put("VRO", "");
+		extensions.put("WEBM", "");
+		extensions.put("WM", "");
+		extensions.put("WMV", "");
+		extensions.put("WTV", "");
+		extensions.put("XESC", "");
+	}
+
+	public static boolean isVideoExtension(String extension) {
+		return extensions.containsKey(extension);
+	}
+}

@@ -84,10 +84,13 @@
     <orderEntry type="library" exported="" name="libvlc" level="project" />
     <orderEntry type="library" exported="" name="support-annotations-21.0.2" level="project" />
     <orderEntry type="library" exported="" name="support-v4-21.0.2" level="project" />
+    <orderEntry type="library" exported="" name="universal-image-loader-1.7.1" level="project" />
     <orderEntry type="library" exported="" name="recyclerview-v7-21.0.2" level="project" />
+    <orderEntry type="library" exported="" name="acra-4.5.0" level="project" />
     <orderEntry type="library" exported="" name="appcompat-v7-21.0.2" level="project" />
     <orderEntry type="library" exported="" name="picasso-2.3.2" level="project" />
     <orderEntry type="library" exported="" name="leanback-v17-21.0.2" level="project" />
+    <orderEntry type="library" exported="" name="realm-android-0.74.0" level="project" />
     <orderEntry type="module" module-name="googleplayservices" exported="" />
     <orderEntry type="module" module-name="libtorrent" exported="" />
   </component>
