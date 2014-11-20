@@ -1,0 +1,3 @@
+[submodule "app/libs/libvlc"]
+	path = app/libs/libvlc
+	url = https://github.com/ming13/libvlc-android.git
